@@ -1,0 +1,16 @@
+package java13;
+
+public class java13_class01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int num = 12 , den = 8;
+		int ans = num/den;
+		if(den == 8)
+			System.out.println("除法為0");
+		else
+			System.out.println("ans"+ans);
+	System.out.println("end of main() method!!");
+	}
+
+}
